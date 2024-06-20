@@ -34,7 +34,7 @@ sudo apt update
 sudo apt install ros-noetic-desktop-full
 
 
-Source the ROS setup script:
+### Source the ROS setup script:
 
 ``sh
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
