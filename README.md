@@ -1,9 +1,9 @@
 # GoPiGo3 ROS Autonomous Navigation
 #Collaborators:
- -BALOOMOODY DAREN 
- -YASH BEEHARRY
- -KRITIKA BISSESSUR
- -HACHIM HASANI BACAR
+ `BALOOMOODY DAREN 
+ `YASH BEEHARRY
+ `KRITIKA BISSESSUR
+ `HACHIM HASANI BACAR
 This repository contains the necessary setup and code to control the GoPiGo3 robot autonomously using ROS (Robot Operating System) and three ultrasonic sensors.
 
 ## Table of Contents
