@@ -1,4 +1,5 @@
-# GoPiGo3 ROS Autonomous Navigation
+# GoPiGo3 Autonomous Navigation
+## The main objective of the Gopigo Robot is to under-go a maze autonomously using 3 ultrasound.
 #Collaborators:
  - #BALOOMOODY DAREN 
  - #YASH BEEHARRY
