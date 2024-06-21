@@ -1,5 +1,5 @@
 # GoPiGo3 Autonomous Navigation Robot.
-## The main objective of the Gopigo Robot is to under-go a maze autonomously using ultrasound.
+   The main objective of the Gopigo Robot is to under-go a maze autonomously using ultrasound.
 # Collaborators:
  - #BALOOMOODY DAREN 
  - #Vibhakarsingh BEEHARRY
