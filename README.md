@@ -27,7 +27,8 @@ Ensure you have the following installed on your system:
 ## Setup Instructions
 ### Install ROS
 Install ROS Noetic if it is not already installed:
- 
+
+```sh
 sudo apt update
 sudo apt upgrade
 sudo apt install ros-noetic-desktop-full
@@ -101,12 +102,9 @@ rosrun gopigo3_node gopigo3_node
 By following these steps, you should be able to install and set up all necessary packages for your GoPiGo3 robot.
 
 
+Once all library and packages has been installed and tested we can now run the robot using the steps below.
 
-
-
-## Once all library and packages has been installed and tested we can now run the robot using the steps below.
-
-### Running the GoPiGo Robot
+Running the GoPiGo Robot
 
 #### Launch the Differential Drive Node:
 
