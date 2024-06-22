@@ -103,10 +103,10 @@ By following these steps, you should be able to install and set up all necessary
 
 
 Once all library and packages has been installed and tested we can now run the robot using the steps below.
-## Running the GoPiGo Robot
+### Running the GoPiGo Robot
 ### Launch the Differential Drive Node:
 
-#### Step 1 : Open a terminal and navigate to your catkin workspace:
+## Step 1 : Open a terminal and navigate to your catkin workspace:
 ```sh
 cd ~/catkin_ws
 ```
@@ -115,7 +115,7 @@ This is the root directory for our ROS workspace where all packages and build fi
 located.
 
 
-#### Step 2 : Source the setup file to ensure all environment variables are correctly defined:
+## Step 2 : Source the setup file to ensure all environment variables are correctly defined:
 ```sh
 source devel/setup.bash
 ```
@@ -124,7 +124,7 @@ This command ensures that the terminal session is aware of the ROS packages and 
 in your workspace.
 
 
-#### Step 3 : Launch the differential drive node, which controls the motors of the GoPiGo robot:
+## Step 3 : Launch the differential drive node, which controls the motors of the GoPiGo robot:
 ```sh
 roslaunch bringup car_differential_drive.launch
 ```
@@ -133,7 +133,7 @@ for controlling the differential drive mechanism of the GoPiGo robot. It may inc
 motor control nodes, sensor nodes, and other necessary components.
 
 
-#### Step 4 : Run the GoPiGo Control Script:
+## Step 4 : Run the GoPiGo Control Script:
 ```sh
 python3 gopigo.py
 ``` 
@@ -141,7 +141,7 @@ It runs the Python script gopigo.py, which contains the logic for controlling th
 This script handle sensor readings, motor commands, and overall navigation logic.
 
 
-#### Step 5 : To terminate the session
+## Step 5 : To terminate the session
 ```sh
 ctrl + z
 ```
