@@ -28,16 +28,11 @@ Ensure you have the following installed on your system:
 ## Setup Instructions
 
 ### Install ROS
-
 Install ROS Noetic if it is not already installed:
-
-```sh
 sudo apt update
 sudo apt install ros-noetic-desktop-full
 
 
 ### Source the ROS setup script:
-
-``sh
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
