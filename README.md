@@ -73,6 +73,11 @@ Navigate to the Software directory and run the installation script:
 sudo bash install.sh
 ```
 
+### Install the GoPiGo3 Python Package
+```sh
+sudo pip3 install gopigo3
+```
+
 ### To verify your GoPiGo3 is working with ROS, you can launch a ROS node:
 Launch the ROS master:
 ```sh   
