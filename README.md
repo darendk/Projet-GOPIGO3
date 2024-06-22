@@ -59,4 +59,18 @@ catkin_make
 This command builds the workspace and creates several directories (build, devel, etc.).
 
 
+## To install the packages required for a GoPiGo3 robot, follow these steps. GoPiGo3 is a robot platform by Dexter Industries, and setting it up involves installing the necessary software and dependencies on your Raspberry Pi.
+
+### Clone the GoPiGo3 Repository
+Navigate to the home director and Clone the GoPiGo3 repository:
+```sh
+git clone https://github.com/DexterInd/GoPiGo3.git
+```
+
+### Install GoPiGo3 Software
+Navigate to the Software directory and run the installation script:
+```sh
+sudo bash install.sh
+```
+
 
