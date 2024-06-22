@@ -103,7 +103,8 @@ By following these steps, you should be able to install and set up all necessary
 
 
 Once all library and packages has been installed and tested we can now run the robot using the steps below.
-### Running the GoPiGo Robot
+
+# Running the GoPiGo Robot
 ### Launch the Differential Drive Node:
 
 ## Step 1 : Open a terminal and navigate to your catkin workspace:
