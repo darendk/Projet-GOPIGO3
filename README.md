@@ -96,3 +96,7 @@ rosrun gopigo3_node gopigo3_node
 By following these steps, you should be able to install and set up all necessary packages for your GoPiGo3 robot.
 
 
+
+
+
+## Once all library and packages has been installed and tested we can now run the robot using the steps below.
