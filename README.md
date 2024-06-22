@@ -78,6 +78,11 @@ sudo bash install.sh
 sudo pip3 install gopigo3
 ```
 
+### Installing Ultrasonic Sensor Library
+```sh
+sudo pip3 install easygopigo3
+```
+
 ### To verify your GoPiGo3 is working with ROS, you can launch a ROS node:
 Launch the ROS master:
 ```sh   
