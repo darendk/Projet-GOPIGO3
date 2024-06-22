@@ -20,19 +20,43 @@
 - [Teleoperation](#teleoperation)
 
 ## Prerequisites
-
 Ensure you have the following installed on your system:
 - ROS (Robot Operating System) Noetic
 - Python 3
 
 ## Setup Instructions
-
 ### Install ROS
 Install ROS Noetic if it is not already installed:
+```sh 
 sudo apt update
+sudo apt upgrade
 sudo apt install ros-noetic-desktop-full
+```
+
+### Ensure your ROS environment is set up by sourcing the setup file:
+```sh 
+source /opt/ros/<ros_noetic>/setup.bash
+```
+
+### Create the Workspace Directory
+```sh 
+mkdir -p ~/catkin_ws/src
+```
+
+### Initialize the Workspace
+Navigate to the src directory and initialize the workspace:
+```sh
+cd ~/catkin_ws/src
+catkin_init_workspace
+```
+
+### Build the Workspace
+Navigate back to the root of your workspace and build it:
+```sh
+cd ~/catkin_ws
+catkin_make
+```
+This command builds the workspace and creates several directories (build, devel, etc.).
 
 
-### Source the ROS setup script:
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+
