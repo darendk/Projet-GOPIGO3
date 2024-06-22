@@ -73,4 +73,21 @@ Navigate to the Software directory and run the installation script:
 sudo bash install.sh
 ```
 
+### To verify your GoPiGo3 is working with ROS, you can launch a ROS node:
+Launch the ROS master:
+```sh   
+roscore
+```
+
+### Open a new terminal and source the workspace:
+```sh
+source ~/catkin_ws/devel/setup.bash
+```
+
+Run a GoPiGo3 node:
+```sh
+rosrun gopigo3_node gopigo3_node
+```
+By following these steps, you should be able to install and set up all necessary packages for your GoPiGo3 robot.
+
 
